@@ -1,10 +1,12 @@
 # Salesforce DX Project: Next Steps This is ram
 
-this is ram for us_1234_loops
+
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
 ## How Do You Plan to Deploy Your Changes?
+
+this is for surya -- fixing issue
 
 Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
