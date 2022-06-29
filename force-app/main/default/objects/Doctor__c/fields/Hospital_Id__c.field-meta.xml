@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hospital_Id__c</fullName>
+    <externalId>false</externalId>
+    <label>Hospital</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Hospital__c.Name</field>
+            <operation>startsWith</operation>
+            <value>S</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Hospital__c</referenceTo>
+    <relationshipLabel>Doctor Dummy</relationshipLabel>
+    <relationshipName>Doctor</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
