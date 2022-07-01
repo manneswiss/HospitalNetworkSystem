@@ -1,10 +1,9 @@
 # Salesforce DX Project: Next Steps This is ram
 
-<<<<<<< HEAD
 this is nagasai Venu checking
-=======
+
 This is Nagaraj
->>>>>>> 6320ae80536be9bdc645ff60c60381f29011e86c
+
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
