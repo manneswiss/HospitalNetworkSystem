@@ -6,7 +6,7 @@ This is Nagaraj
 
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
-
+ o
 ## How Do You Plan to Deploy Your Changes?
 
 this is for surya -- fixing issue
