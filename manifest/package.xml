@@ -6,13 +6,13 @@
     <name>ApexClass</name>
     </types>
    <types>
-        <members>*</members>
+        <members>Hospital Network</members>
        <name>CustomApplication</name>
     </types>
-    <types>
+  <!--  <types>
         <members>*</members>
        <name>CustomApplication</name>
-    </types>
+    </types> -->
     <types>
        <members>*</members>
        <name>CustomObject</name>
