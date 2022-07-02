@@ -1,4 +1,28 @@
 public class Calculator {
+    Integer k=0;
+    Integer l=0;
+    Integer m=0;
+    public Calculator(){
+        System.debug('--Into constructor w/o variable Start--1');
+    	this.k=10;
+        this.l=12;
+        System.debug('--Into constructor w/o variable End--');
+    }
+    public Calculator(Integer k, Integer l){
+    	System.debug('--Into 2 variable constructor Start--');
+        this.k=k;
+        this.l=l;
+        //this.m=0;
+        System.debug('--Into 2 variable constructor End--');
+    }
+    public Calculator(Integer ram, Integer nag, Integer sai){
+        System.debug('--Into 3 variable constructor Start--');
+    	this.k=ram;
+        this.l=nag;
+        this.m=sai;
+        System.debug('--Into 3 variable constructor End--');
+    }
+  
     
     public void addition(){
         system.debug('------ Addition start----------');
@@ -18,6 +42,13 @@ public class Calculator {
         Integer y=10;
         
         Integer c = x+y;
+        
+        Integer n=k+l;
+            
+        
+            system.debug('the value of N using constructor in addition '+n);
+            n=k+l+m;
+            system.debug('the value of N using 3 parameter constructor in addition '+n);
         
         system.debug('the value of C in addition '+c);
         
@@ -68,5 +99,17 @@ public class Calculator {
          system.debug('------ addition2 start----------');
         
     }
+// Method Overloading - Same method name but with different parameters
+    public void addition2(Integer nagasai , Integer raju, Integer guntur){
+         system.debug('------ addition2 start----------');
+        
+        Integer nagraj = nagasai + raju ;
+        
+        system.debug (' the value of addition 2 by passwing parameters----:'+nagraj);
+        
+         system.debug('------ addition2 start----------');
+        
+    }
+
     
 }

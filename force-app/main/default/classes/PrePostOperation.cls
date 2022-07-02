@@ -62,13 +62,7 @@ public with sharing class PrePostOperation {
         // 5
         System.debug( 'the value of y on pre--decrement--'+ y) ; // 5
         
-
-
         // 5
-
-        /// admin@iamraamon-dev.com
-        //admin@iamraamon-qa.com
-        //admin@iamraamon-prod.com
     }
 
 }
