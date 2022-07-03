@@ -4,7 +4,13 @@ this is nagasai Venu checking
 
 This is Nagaraj
 This is Raju
+<<<<<<< HEAD
 This is vijay
+=======
+
+this is venu from hindhupur
+
+>>>>>>> e181f702ea636ef9a60dd2f65a2bb1aea1f1f2a0
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
  o
 ## How Do You Plan to Deploy Your Changes?
