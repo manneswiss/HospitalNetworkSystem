@@ -66,4 +66,82 @@ public with sharing class GitHubLearning {
         
             system.debug('end  manneAccount----');
     }
+
+
+
+    public static void   manneEditAccount(String sfId,String  paramName,String paramAcNo ,Decimal paramAccRev){
+        system.debug('start  manneEditAccount----');
+      
+          //HOspital__c -cust object
+          //Account  -- stand object
+          //
+  /*         List<Account> acLst = [select Id,name,AccountNumber,Accountrevenue from Account where Id = : sfId];
+        for(Account acc : acLst){
+            
+         acc.name=paramName;
+         acc.AccountNumber =paramAcNo;
+       acc.AnnualRevenue=paramAccRev;
+         system.debug('going to update');
+         update acc;       
+        } */
+         Account h = new Account(Id=sfid);
+         h.name=paramName;
+         h.AccountNumber =paramAcNo;
+         h.AnnualRevenue=paramAccRev;
+         system.debug('going to update');
+         update h;       
+         
+         
+         
+             system.debug('end  manneEditAccount----');
+     }
+    
+    
+     public static void   manneDeleteAccount(String sfId){
+        system.debug('start  manneDeleteAccount----');
+      
+          //HOspital__c -cust object
+          //Account  -- stand object
+          //
+  /*         List<Account> acLst = [select Id,name,AccountNumber,Accountrevenue from Account where Id = : sfId];
+        for(Account acc : acLst){
+            
+        
+         system.debug('going to delete');
+         delete acc;       
+        } */
+         Account h = new Account(Id=sfid);
+      
+         system.debug('going to delete');
+         delete h;       
+         
+         
+         
+             system.debug('end  manneDeleteAccount----');
+     }
+    
+    
+     public static void   manneUnDeleteAccount(String sfId){
+        system.debug('start  manneUnDeleteAccount----');
+      
+          //HOspital__c -cust object
+          //Account  -- stand object
+          //
+  /*         List<Account> acLst = [select Id,name,AccountNumber,Accountrevenue from Account where Id = : sfId];
+        for(Account acc : acLst){
+            
+        
+         system.debug('going to delete');
+         delete acc;       
+        } */
+         Account h = new Account(Id=sfid);
+      
+         system.debug('going to delete');
+         undelete h;       
+         
+         
+         
+             system.debug('end  manneUnDeleteAccount----');
+     }
+ 
 }
