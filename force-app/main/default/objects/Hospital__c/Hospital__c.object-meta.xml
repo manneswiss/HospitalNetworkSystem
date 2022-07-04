@@ -144,14 +144,14 @@
     <compactLayoutAssignment>Custom_Compact_Layout</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
-    <enableBulkApi>true</enableBulkApi>
+    <enableBulkApi>false</enableBulkApi>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
-    <enableSharing>true</enableSharing>
-    <enableStreamingApi>true</enableStreamingApi>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <label>Hospital</label>
     <nameField>

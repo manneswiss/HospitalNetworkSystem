@@ -12,7 +12,7 @@
         </filterItems>
         <isOptional>false</isOptional>
     </lookupFilter>
-    <referenceTo>Hospital__c</referenceTo>
+ <!--   <referenceTo>Hospital__c</referenceTo>
     <relationshipLabel>Doctor Dummy</relationshipLabel>
     <relationshipName>Doctor</relationshipName>
     <relationshipOrder>0</relationshipOrder>
@@ -20,5 +20,12 @@
     <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>MasterDetail</type>
-    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead> -->
+    <referenceTo>Hospital__c</referenceTo>
+    <relationshipLabel>Doctor Dummy</relationshipLabel>
+    <relationshipName>Doctor</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
 </CustomField>

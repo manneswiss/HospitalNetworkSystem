@@ -57,11 +57,12 @@
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>Doctor__c</tabs>
-    <tabs>Patient__c</tabs>
+   <!-- <tabs>Patient__c</tabs> 
+ <tabs>Room__c</tabs>-->
     <tabs>Hospital__c</tabs>
-    <tabs>Room__c</tabs>
-    <tabs>Vehicle__c</tabs>
-    <tabs>Test_Dummy__c</tabs>
+   
+  <!--  <tabs>Vehicle__c</tabs> -->
+    
     <uiType>Lightning</uiType>
     <utilityBar>Hospital_Network_UtilityBar</utilityBar>
 </CustomApplication>
