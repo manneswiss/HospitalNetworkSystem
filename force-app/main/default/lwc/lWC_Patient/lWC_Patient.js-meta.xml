@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <isExposed>true</isExposed>
+    <!-- targets 
+    lightning__AppPage: Enables a component to be used on an App page in Lightning App Builder.
+
+lightning__HomePage: Enables a component to be used on a Home page in Lightning App Builder.
+
+lightning__RecordPage: Enables a component to be used on a record page in Lightning App Builder.
+
+ 
+
+lightning__UtilityBar: Enables a component to be used as a utility item on the utility bar in the App Manager.
+
+lightning__FlowScreen: Enables a component to be used on flow screens in Flow Builder.
+
+lightning__Tab: Enables a component to be used in a custom tab in Lightning Experience or the Salesforce mobile app.
+
+lightning__Inbox: Enables a component to be used in Lightning App Builder to add to email application panes for the Outlook and Gmail integrations.
+
+lightningCommunity__Page: Enables a component to be used on a Lightning community page in Community Builder.
+
+lightningCommunity__Default: Used together with lightningCommunity__Page. Enables a component that includes configurable properties to be used on a Lightning community page in Community Builder. When the component is selected on the page, the properties appear.
+
+ 
+
+lightningSnapin__ChatMessage: Enables a component to be selected from Embedded Service Chat Setup. If a component imports the lightningsnapin/baseChatMessage module, it must specify the lightningSnapin__ChatMessage target. For more information, see the lightningsnapin/baseChatMessage documentation.
+
+targetConfigs: Configure the component for different page types and define component properties. For example, a component could have different properties on a record home page than on the Salesforce Home page or on an app page. For Communities, only lightningCommunity__Default supports component properties.
+
+    -->
+
+    <targets>
+        <target>lightning__HomePage</target> 
+        <target>lightning__AppPage</target> 
+        <target>lightning__RecordPage</target> 
+        <target>lightning__Tab</target> 
+        <target>lightning__UtilityBar</target> 
+    </targets>  
+</LightningComponentBundle>
