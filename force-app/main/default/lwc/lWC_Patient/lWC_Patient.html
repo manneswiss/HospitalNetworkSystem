@@ -9,25 +9,35 @@
 
         <!-- Default/basic -->
         <div class="slds-p-around_medium lgc-bg">
-            <lightning-input type="text" label="Enter Patient Name"></lightning-input>
+            <lightning-input type="text" label="Enter Patient Name"  onchange={onChangePatientName}  required></lightning-input>
         </div>
     </div>
 
 
     <div class="slds-m-top_medium slds-m-bottom_x-large">
         <h2 class="slds-text-heading_medium slds-m-bottom_medium">
-          Age.
+          DOB.
         </h2>
 
-        <!-- Default/basic -->
+
+        <lightning-input 
+        type="date" 
+        label="DOB" 
+        onchange={handleDateChange}  required
+    ></lightning-input>
+
+        <!-- Default/basic 
         <div class="slds-p-around_medium lgc-bg">
-            <lightning-input type="text" label="Enter some Age" placeholder="type Age here..."></lightning-input>
+            <lightning-input type="text" label="Enter some Age" placeholder="type Age here..."
+            
+            onchange={onChangeAge}></lightning-input> -->
         </div>
     </div>
 
 
-    DOB
 
-    submit button
+ <!-- Brand variant: Identifies the primary action in a group of buttons -->
+        <lightning-button variant="brand" label="Submit" title="Primary action"  ondblclick={onDblClick} onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+
     
 </template>
