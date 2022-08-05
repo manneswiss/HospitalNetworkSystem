@@ -8,5 +8,9 @@
         <members>Eeresh_NC</members>
         <name>NamedCredential</name>
     </types>
+       <types>
+        <members>LWC_Patient</members>
+        <name>ApexClass</name>
+    </types>
     <version>55.0</version>
 </Package>
